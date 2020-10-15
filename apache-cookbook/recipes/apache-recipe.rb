@@ -10,7 +10,7 @@ action :install
 end
 
 file '/var/www/html/index.html' do
-content '<h1>Welcome to Chef devops World.. Testing Chef- Roles.Enjoying devops.CHef is very easy !!</h1> '
+content '<h1>Welcome to Chef devops World.. Testing Chef- Roles.Enjoying devops.CHef is very easy .Integrating git with chef !!</h1> '
 action :create
 end
 
